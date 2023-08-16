@@ -55,7 +55,7 @@
             button {
               height: 60px;
               padding: 10px 30px;
-              box-shadow: 0px 8px 20px rgba(255, 115, 128, 0.3);
+              box-shadow: 0px 8px 20px #005D6C;
               background: $primary-color;
               font-weight: 600;
               color: $white;
@@ -183,6 +183,15 @@
           }
         }
       }
+    }
+  }
+}
+
+.footer-brand {
+  img {
+    width: 180px;
+    @include mobile {
+      width: 140px;
     }
   }
 }
